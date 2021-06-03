@@ -1,1 +1,1 @@
-web: vendor/bin/heroku-php-apache2 Formulario/
+web: vendor/bin/heroku-php-apache2 form/
