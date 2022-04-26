@@ -31,6 +31,17 @@
 
       <a-entity id="box" cursor-listener geometry="primitive: box" material="color: blue"></a-entity>
       
+        <a-entity camera look-controls>
+        <a-entity cursor="fuse: true; fuseTimeout: 500"
+            position="0 0 -1"
+            gps-projected-entity-place="latitude: -1.4303239713242424; longitude: -48.478625348543076"
+            geometry="primitive: ring; radiusInner: 0.02; radiusOuter: 0.03"
+            material="color: black; shader: flat">
+        </a-entity>
+      </a-entity>
+
+      <a-entity id="box" cursor-listener geometry="primitive: box" material="color: red"></a-entity>
+      
       <!--<a-box color="yellow" gps-projected-entity-place="latitude: -1.4303239713242424; longitude: -48.478625348543076" position="40 30 40"/>
       <a-box color="yellow" gps-projected-entity-place="latitude: -1.4303510128233616; longitude: -48.4786999821909" position="50 30 50"/>
       <a-box material="color: yellow" gps-entity-place="latitude: -1.4382110413722984; longitude: -48.46041088481791 " /> <!-- Bloco C 
