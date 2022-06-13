@@ -3,7 +3,6 @@ window.onload = () => {
     let long;
     let marker;
     navigator.geolocation.getCurrentPosition(position);
-
     function position(position) {
         lat = position.coords.latitude;
         long = position.coords.longitude;
@@ -22,4 +21,5 @@ window.onload = () => {
             window.location.href = "Mapa.html";
         })
     }
+
 }
